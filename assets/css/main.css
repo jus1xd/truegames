@@ -425,7 +425,8 @@ body.modal-active {
 
 .modal_window {
   position: relative;
-  width: 470px;
+  width: 100%;
+  min-width: 470px;
   height: max-content;
   background-color: var(--dark-bg);
   border-radius: 10px;
@@ -664,4 +665,34 @@ body.modal-active {
 
 .product-btn {
   font-size: 18px;
+}
+
+.modal_main-wrapper {
+  transition: .7s;
+  transform: translateX(-960px); 
+  display: flex;
+  align-items: center;
+}
+
+.modal_main-wrapper.login-active {
+  transform: translateX(0px);
+}
+
+.modal_main-track {
+  overflow: hidden;
+  width: 480px;
+}
+
+.login_to_existed {
+  font-size: 15px;
+}
+
+.login_to_existed a {
+  color: var(--primary);
+}
+
+.login-inner {
+  overflow: hidden;
+  margin-right: 500px;
+  transition: .2s;
 }
