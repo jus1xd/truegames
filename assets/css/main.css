@@ -616,3 +616,52 @@ body.modal-active {
 .photos_col-wrap:hover {
   transform: scale(1.15);
 }
+
+.product_info {
+  margin-left: 80px;
+}
+
+.product_title {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.product_specs {
+  margin-top: 20px;
+  min-height: 300px;
+}
+
+.product_specs-item {
+  display: flex;
+  justify-content: start;
+  margin-bottom: 10px;
+}
+
+.spec_key {
+  width: 100%;
+  min-width: 200px;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.spec_value {
+  width: 100%;
+  min-width: 150px;
+  text-align: left;
+}
+
+.product_cost {
+  display: flex;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.product_cost-value {
+  margin-left: 10px;
+}
+
+.product-btn {
+  font-size: 18px;
+}
