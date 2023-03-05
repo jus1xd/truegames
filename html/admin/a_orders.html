@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../assets/css/slick.css" />
-    <link rel="stylesheet" href="../assets/css/slick-theme.css" />
-    <link rel="stylesheet" href="../assets/css/main.css" />
-    <link rel="icon" href="../assets/img/fav.svg" />
-    <title>True Games - корзина</title>
+    <link rel="stylesheet" href="../../assets/css/slick.css" />
+    <link rel="stylesheet" href="../../assets/css/slick-theme.css" />
+    <link rel="stylesheet" href="../../assets/css/main.css" />
+    <link rel="icon" href="../../assets/img/fav.svg" />
+    <title>Admin - список заказов</title>
   </head>
   <body>
     <!-- header  -->
@@ -19,16 +19,16 @@
           <div class="header_logo">
             <a href="index.html">
               <img
-                src="../assets/img/logo.svg"
+                src="../../assets/img/logo.svg"
                 alt="logo"
                 class="header_logo-img"
               />
             </a>
           </div>
           <nav class="nav">
-            <a href="index.html" class="nav_link">Каталог</a>
-            <a href="about.html" class="nav_link">О нас</a>
-            <a href="contacts.html" class="nav_link">Где нас найти?</a>
+            <a href="../index.html" class="nav_link">Каталог</a>
+            <a href="../about.html" class="nav_link">О нас</a>
+            <a href="../contacts.html" class="nav_link">Где нас найти?</a>
           </nav>
           <div class="main-btn auth-btn">
             <div class="color-overlay"></div>
@@ -41,113 +41,169 @@
     <section class="catalog">
       <div class="container">
         <div class="section_title">
-          <h2 class="section_title-text">Корзина</h2>
+          <h2 class="section_title-text">Список заказов</h2>
         </div>
-        <div class="catalog_wrapper">
-          <div class="catalog_inner">
+        <div class="catalog_wrapper admin-orders-wrapper">
+          <div class="catalog_inner admin-orders-inner">
             <div class="catalog_item-with-counter">
               <div class="catalog_item basket_item">
+                <div class="catalog_item-tag">
+                  <div class="catalog_item-tag-text">Новый</div>
+                </div>
                 <div class="catalog_item-img">
                   <img
-                    src="../assets/img/products/product.png"
+                    src="../../assets/img/products/product.png"
                     alt="catalog_item"
                   />
                   <div class="catalog_item-overlay"></div>
                 </div>
-                <div class="catalog_item-wrapper">
-                  <a href="product.html" class="catalog_item-title">Logitech G Pro</a>
-                  <div class="catalog_item-price">6999 руб.</div>
-                  <div class="main-btn">
-                    <div class="color-overlay"></div>
-                    <span class="btn-text">Убрать</span>
-                  </div>
+                <div class="catalog_item-wrapper orders-item">
+                  <a href="../product.html" class="catalog_item-title"
+                    >Заказ №192</a
+                  >
+                  <div class="catalog_item-title">от 10.02.23</div>
                 </div>
               </div>
-              <div class="card_footer">
-                <div class="catalog_item-counter-minus">
-                  <img src="../assets/img/basket/minus.svg" alt="" />
+              <div class="card_footer column">
+                <div class="purchase_data pd-sm">
+                  ФИО заказчика: <span>Зайцев В. М.</span>
                 </div>
-                <div class="catalog_item-counter-number">1</div>
-                <div class="catalog_item-counter-plus">
-                  <img src="../assets/img/basket/plus.svg" alt="" />
+                <div class="purchase_data pd-sm">
+                  Адрес доставки: <span>Почтомат 45</span>
+                </div>
+                <div class="purchase_data pd-sm">
+                  Кол-во товаров: <span>3</span>
+                </div>
+                <div class="btn-wrapper separate-btns">
+                  <div class="main-btn">
+                    <div class="color-overlay"></div>
+                    <span class="btn-text">Принять</span>
+                  </div>
+                  <div class="main-btn cancel-btn">
+                    <div class="color-overlay"></div>
+                    <span class="btn-text">Отмена</span>
+                  </div>
                 </div>
               </div>
             </div>
-
             <div class="catalog_item-with-counter">
               <div class="catalog_item basket_item">
+                <div class="catalog_item-tag">
+                  <div class="catalog_item-tag-text">Новый</div>
+                </div>
                 <div class="catalog_item-img">
                   <img
-                    src="../assets/img/products/product.png"
+                    src="../../assets/img/products/product.png"
                     alt="catalog_item"
                   />
                   <div class="catalog_item-overlay"></div>
                 </div>
-                <div class="catalog_item-wrapper">
-                  <a href="product.html" class="catalog_item-title">Logitech G Pro</a>
-                  <div class="catalog_item-price">6999 руб.</div>
-                  <div class="main-btn">
-                    <div class="color-overlay"></div>
-                    <span class="btn-text">Убрать</span>
-                  </div>
+                <div class="catalog_item-wrapper orders-item">
+                  <a href="../product.html" class="catalog_item-title"
+                    >Заказ №192</a
+                  >
+                  <div class="catalog_item-title">от 10.02.23</div>
                 </div>
               </div>
-              <div class="card_footer">
-                <div class="catalog_item-counter-minus">
-                  <img src="../assets/img/basket/minus.svg" alt="" />
+              <div class="card_footer column">
+                <div class="purchase_data pd-sm">
+                  ФИО заказчика: <span>Зайцев В. М.</span>
                 </div>
-                <div class="catalog_item-counter-number">1</div>
-                <div class="catalog_item-counter-plus">
-                  <img src="../assets/img/basket/plus.svg" alt="" />
+                <div class="purchase_data pd-sm">
+                  Адрес доставки: <span>Почтомат 45</span>
+                </div>
+                <div class="purchase_data pd-sm">
+                  Кол-во товаров: <span>3</span>
+                </div>
+                <div class="btn-wrapper separate-btns">
+                  <div class="main-btn">
+                    <div class="color-overlay"></div>
+                    <span class="btn-text">Принять</span>
+                  </div>
+                  <div class="main-btn cancel-btn">
+                    <div class="color-overlay"></div>
+                    <span class="btn-text">Отмена</span>
+                  </div>
                 </div>
               </div>
             </div>
-
             <div class="catalog_item-with-counter">
               <div class="catalog_item basket_item">
+                <div class="catalog_item-tag">
+                  <div class="catalog_item-tag-text">Новый</div>
+                </div>
                 <div class="catalog_item-img">
                   <img
-                    src="../assets/img/products/product.png"
+                    src="../../assets/img/products/product.png"
                     alt="catalog_item"
                   />
                   <div class="catalog_item-overlay"></div>
                 </div>
-                <div class="catalog_item-wrapper">
-                  <a href="product.html" class="catalog_item-title">Logitech G Pro</a>
-                  <div class="catalog_item-price">6999 руб.</div>
-                  <div class="main-btn">
-                    <div class="color-overlay"></div>
-                    <span class="btn-text">Убрать</span>
-                  </div>
+                <div class="catalog_item-wrapper orders-item">
+                  <a href="../product.html" class="catalog_item-title"
+                    >Заказ №192</a
+                  >
+                  <div class="catalog_item-title">от 10.02.23</div>
                 </div>
               </div>
-              <div class="card_footer">
-                <div class="catalog_item-counter-minus">
-                  <img src="../assets/img/basket/minus.svg" alt="" />
+              <div class="card_footer column">
+                <div class="purchase_data pd-sm">
+                  ФИО заказчика: <span>Зайцев В. М.</span>
                 </div>
-                <div class="catalog_item-counter-number">1</div>
-                <div class="catalog_item-counter-plus">
-                  <img src="../assets/img/basket/plus.svg" alt="" />
+                <div class="purchase_data pd-sm">
+                  Адрес доставки: <span>Почтомат 45</span>
+                </div>
+                <div class="purchase_data pd-sm">
+                  Кол-во товаров: <span>3</span>
+                </div>
+                <div class="btn-wrapper separate-btns">
+                  <div class="main-btn">
+                    <div class="color-overlay"></div>
+                    <span class="btn-text">Принять</span>
+                  </div>
+                  <div class="main-btn cancel-btn">
+                    <div class="color-overlay"></div>
+                    <span class="btn-text">Отмена</span>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
 
           <div class="catalog_filter">
-            <div class="window_title">Данные о заказе</div>
-
-            <!-- order list  -->
-
-            <div class="purchase_data">Кол-во товаров: <span>3</span></div>
-            <div class="purchase_data">
-              Общая сумма: <span>20997 руб.</span>
+            <div class="window_title">Фильтры</div>
+            <!-- <select> input  -->
+            <div class="select">
+              <div class="select_title">Сортировать</div>
+              <select class="filter_select" name="select" id="select">
+                <option value="1">По новизне</option>
+                <option value="2">По новизне</option>
+                <option value="3">
+                  <span> По цене </span>
+                </option>
+                <option value="4">По цене</option>
+              </select>
             </div>
-            <div class="purchase_data">Скидка: <span>10%</span></div>
-            <div class="purchase_data pd-lg">Итог: <span>18667 руб.</span></div>
-
+            <!-- 3x checkbox -->
+            <div class="checkbox orders-checkbox">
+              <div class="checkbox_wrapper">
+                <div class="checkbox_item">
+                  <input type="checkbox" id="checkbox1" />
+                  <label for="checkbox1">Новые</label>
+                </div>
+                <div class="checkbox_item">
+                  <input type="checkbox" id="checkbox2" />
+                  <label for="checkbox2">Подтверждённые</label>
+                </div>
+                <div class="checkbox_item">
+                  <input type="checkbox" id="checkbox3" />
+                  <label for="checkbox3">Отменённые</label>
+                </div>
+              </div>
+            </div>
             <div class="main-btn stretch-btn">
               <div class="color-overlay"></div>
-              <span class="btn-text">Оформить заказ</span>
+              <span class="btn-text">Применить</span>
             </div>
           </div>
         </div>
@@ -170,7 +226,7 @@
           <div class="modal_main-wrapper login-active">
             <div class="modal_window login-inner">
               <div class="modal_close-wrapper">
-                <img src="../assets/img/close.svg" alt="" />
+                <img src="../../assets/img/close.svg" alt="" />
               </div>
               <div class="modal_title-text">Вход</div>
               <div class="modal_content">
@@ -207,7 +263,7 @@
 
             <div class="modal_window register-inner">
               <div class="modal_close-wrapper">
-                <img src="../assets/img/close.svg" alt="" />
+                <img src="../../assets/img/close.svg" alt="" />
               </div>
               <div class="modal_title-text">Регистрация</div>
               <div class="modal_content">
@@ -287,7 +343,7 @@
       </div>
     </div>
 
-    <script src="../assets/js/main.js"></script>
+    <script src="../../assets/js/main.js"></script>
 
     <script
       type="text/javascript"
@@ -299,7 +355,7 @@
       integrity="sha256-mBCu5+bVfYzOqpYyK4jm30ZxAZRomuErKEFJFIyrwvM="
       crossorigin="anonymous"
     ></script>
-    <script type="text/javascript" src="../assets/js/slick.min.js"></script>
-    <script type="text/javascript" src="../assets/js/slick.js"></script>
+    <script type="text/javascript" src="../../assets/js/slick.min.js"></script>
+    <script type="text/javascript" src="../../assets/js/slick.js"></script>
   </body>
 </html>

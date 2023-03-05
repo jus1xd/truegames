@@ -190,72 +190,122 @@
 
     <div class="modal">
       <div class="modal_overlay">
-        <div class="modal_window">
-          <div class="modal_close-wrapper">
-            <img src="../assets/img/close.svg" alt="" />
-          </div>
-          <div class="modal_title-text">Регистрация</div>
-          <div class="modal_content">
-            <form action="#" class="modal_form">
-              <div class="modal_input">
-                <input class="secondary-input" type="text" placeholder="Имя" />
+        <div class="modal_main-track">
+          <div class="modal_main-wrapper login-active">
+            <div class="modal_window login-inner">
+              <div class="modal_close-wrapper">
+                <img src="../assets/img/close.svg" alt="" />
               </div>
-              <div class="modal_input">
-                <input
-                  class="secondary-input"
-                  type="password"
-                  placeholder="Фамилия"
-                />
+              <div class="modal_title-text">Вход</div>
+              <div class="modal_content">
+                <form action="#" class="modal_form">
+                  <div class="modal_input">
+                    <input
+                      class="secondary-input"
+                      type="password"
+                      placeholder="Логин"
+                    />
+                  </div>
+                  <div class="modal_input">
+                    <input
+                      class="secondary-input"
+                      type="password"
+                      placeholder="Пароль"
+                    />
+                  </div>
+                  <div class="login_to_existed">
+                    Нет аккаунта?
+                    <a class="load_sign-up-modal" href="#"
+                      >Зарегистрироваться</a
+                    >
+                  </div>
+                  <div class="modal_btn">
+                    <div class="main-btn stretch-btn">
+                      <div class="color-overlay"></div>
+                      <span class="btn-text">Войти</span>
+                    </div>
+                  </div>
+                </form>
               </div>
-              <div class="modal_input">
-                <input
-                  class="secondary-input"
-                  type="text"
-                  placeholder="Отчество"
-                />
+            </div>
+
+            <div class="modal_window register-inner">
+              <div class="modal_close-wrapper">
+                <img src="../assets/img/close.svg" alt="" />
               </div>
-              <div class="modal_input">
-                <input
-                  class="secondary-input"
-                  type="password"
-                  placeholder="Логин"
-                />
+              <div class="modal_title-text">Регистрация</div>
+              <div class="modal_content">
+                <form action="#" class="modal_form">
+                  <div class="modal_input">
+                    <input
+                      class="secondary-input"
+                      type="text"
+                      placeholder="Имя"
+                    />
+                  </div>
+                  <div class="modal_input">
+                    <input
+                      class="secondary-input"
+                      type="password"
+                      placeholder="Фамилия"
+                    />
+                  </div>
+                  <div class="modal_input">
+                    <input
+                      class="secondary-input"
+                      type="text"
+                      placeholder="Отчество"
+                    />
+                  </div>
+                  <div class="modal_input">
+                    <input
+                      class="secondary-input"
+                      type="password"
+                      placeholder="Логин"
+                    />
+                  </div>
+                  <div class="modal_input">
+                    <input
+                      class="secondary-input"
+                      type="text"
+                      placeholder="Почта"
+                    />
+                  </div>
+                  <div class="modal_input">
+                    <input
+                      class="secondary-input"
+                      type="password"
+                      placeholder="Пароль"
+                    />
+                  </div>
+                  <div class="modal_input">
+                    <input
+                      class="secondary-input"
+                      type="password"
+                      placeholder="Повторите пароль"
+                    />
+                  </div>
+                  <!-- accept terms  -->
+                  <div class="modal_input">
+                    <input type="checkbox" id="accept" />
+                    <label class="accept_terms-text" for="accept"
+                      >Я согласен с
+                      <a href="#">условиями использования</a></label
+                    >
+                  </div>
+                  <div class="login_to_existed">
+                    Уже есть аккаунт?
+                    <a class="load_log-in-modal" href="#">Войти</a>
+                  </div>
+                  <div class="modal_btn">
+                    <div class="main-btn stretch-btn">
+                      <div class="color-overlay"></div>
+                      <span class="btn-text">Войти</span>
+                    </div>
+                  </div>
+                </form>
               </div>
-              <div class="modal_input">
-                <input
-                  class="secondary-input"
-                  type="text"
-                  placeholder="Почта"
-                />
-              </div>
-              <div class="modal_input">
-                <input
-                  class="secondary-input"
-                  type="password"
-                  placeholder="Пароль"
-                />
-              </div>
-              <div class="modal_input">
-                <input
-                  class="secondary-input"
-                  type="password"
-                  placeholder="Повторите пароль"
-                />
-              </div>
-              <!-- accept terms  -->
-              <div class="modal_input">
-                <input type="checkbox" id="accept" />
-                <label class="accept_terms-text" for="accept"
-                  >Я согласен с <a href="#">условиями использования</a></label
-                >
-              </div>
-              <div class="modal_btn">
-                <div class="main-btn stretch-btn">
-                  <div class="color-overlay"></div>
-                  <span class="btn-text">Войти</span>
-                </div>
-              </div>
-            </form>
+            </div>
           </div>
         </div>
       </div>

@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../assets/css/slick.css" />
-    <link rel="stylesheet" href="../assets/css/slick-theme.css" />
-    <link rel="stylesheet" href="../assets/css/main.css" />
-    <link rel="icon" href="../assets/img/fav.svg" />
-    <title>True Games - корзина</title>
+    <link rel="stylesheet" href="../../assets/css/slick.css" />
+    <link rel="stylesheet" href="../../assets/css/slick-theme.css" />
+    <link rel="stylesheet" href="../../assets/css/main.css" />
+    <link rel="icon" href="../../assets/img/fav.svg" />
+    <title>Admin - редактировать товар</title>
   </head>
   <body>
     <!-- header  -->
@@ -19,16 +19,16 @@
           <div class="header_logo">
             <a href="index.html">
               <img
-                src="../assets/img/logo.svg"
+                src="../../assets/img/logo.svg"
                 alt="logo"
                 class="header_logo-img"
               />
             </a>
           </div>
           <nav class="nav">
-            <a href="index.html" class="nav_link">Каталог</a>
-            <a href="about.html" class="nav_link">О нас</a>
-            <a href="contacts.html" class="nav_link">Где нас найти?</a>
+            <a href="../index.html" class="nav_link">Каталог</a>
+            <a href="../about.html" class="nav_link">О нас</a>
+            <a href="../contacts.html" class="nav_link">Где нас найти?</a>
           </nav>
           <div class="main-btn auth-btn">
             <div class="color-overlay"></div>
@@ -41,114 +41,91 @@
     <section class="catalog">
       <div class="container">
         <div class="section_title">
-          <h2 class="section_title-text">Корзина</h2>
+          <h2 class="section_title-text">Logitech G Pro - редактирование товара</h2>
         </div>
-        <div class="catalog_wrapper">
-          <div class="catalog_inner">
-            <div class="catalog_item-with-counter">
-              <div class="catalog_item basket_item">
+        <div class="catalog_wrapper admin-orders-wrapper">
+          <div class="catalog_inner add-products-inner">
+            <div class="catalog_item-with-counter products_catalog-item">
+              <div class="catalog_item basket_item add-product-item-section">
                 <div class="catalog_item-img">
                   <img
-                    src="../assets/img/products/product.png"
+                    src="../../assets/img/products/product.png"
                     alt="catalog_item"
                   />
                   <div class="catalog_item-overlay"></div>
                 </div>
-                <div class="catalog_item-wrapper">
-                  <a href="product.html" class="catalog_item-title">Logitech G Pro</a>
-                  <div class="catalog_item-price">6999 руб.</div>
-                  <div class="main-btn">
-                    <div class="color-overlay"></div>
-                    <span class="btn-text">Убрать</span>
-                  </div>
-                </div>
-              </div>
-              <div class="card_footer">
-                <div class="catalog_item-counter-minus">
-                  <img src="../assets/img/basket/minus.svg" alt="" />
-                </div>
-                <div class="catalog_item-counter-number">1</div>
-                <div class="catalog_item-counter-plus">
-                  <img src="../assets/img/basket/plus.svg" alt="" />
+                <div class="catalog_item-wrapper orders-item">
+                  <a href="../product.html" class="catalog_item-title"
+                    >Logitech G Pro</a
+                  >
+                  <div class="catalog_item-title">6999 руб.</div>
                 </div>
               </div>
             </div>
 
-            <div class="catalog_item-with-counter">
-              <div class="catalog_item basket_item">
-                <div class="catalog_item-img">
-                  <img
-                    src="../assets/img/products/product.png"
-                    alt="catalog_item"
+            <div class="card_add_product-inputs">
+              <div class="modal_input">
+                <input
+                  class="secondary-input"
+                  type="text"
+                  placeholder="Logitech G Pro"
+                />
+              </div>
+              <div class="modal_input">
+                <input
+                  class="secondary-input"
+                  type="text"
+                  placeholder="Игровая мышь"
+                />
+              </div>
+              <div class="modal_input">
+                <input
+                  class="secondary-input"
+                  type="text"
+                  placeholder="Китай"
+                />
+              </div>
+              <div class="modal_input">
+                <input
+                  class="secondary-input"
+                  type="text"
+                  placeholder="2 года"
+                />
+              </div>
+              <div class="modal_input">
+                <input
+                  class="secondary-input"
+                  type="text"
+                  placeholder="Logitech"
+                />
+              </div>
+              <div class="modal_input">
+                <input class="secondary-input" type="text" placeholder="6999р" />
+              </div>
+
+              <div class="modal_input">
+                <div class="file-input">
+                  <input
+                    type="file"
+                    name="file-input"
+                    id="file-input"
+                    class="file-input__input"
                   />
-                  <div class="catalog_item-overlay"></div>
-                </div>
-                <div class="catalog_item-wrapper">
-                  <a href="product.html" class="catalog_item-title">Logitech G Pro</a>
-                  <div class="catalog_item-price">6999 руб.</div>
-                  <div class="main-btn">
-                    <div class="color-overlay"></div>
-                    <span class="btn-text">Убрать</span>
-                  </div>
+                  <label class="file-input__label" for="file-input">
+                    <span>Фото товара</span>
+                    <div class="file-input-img-wrap">
+                      <img src="../../assets/img/basket/plus.svg" alt="" />
+                    </div>
+                  </label>
                 </div>
               </div>
-              <div class="card_footer">
-                <div class="catalog_item-counter-minus">
-                  <img src="../assets/img/basket/minus.svg" alt="" />
-                </div>
-                <div class="catalog_item-counter-number">1</div>
-                <div class="catalog_item-counter-plus">
-                  <img src="../assets/img/basket/plus.svg" alt="" />
-                </div>
+              <div class="main-btn auth-btn add_product">
+                <div class="color-overlay"></div>
+                <span class="btn-text">Добавить товар</span>
               </div>
             </div>
 
-            <div class="catalog_item-with-counter">
-              <div class="catalog_item basket_item">
-                <div class="catalog_item-img">
-                  <img
-                    src="../assets/img/products/product.png"
-                    alt="catalog_item"
-                  />
-                  <div class="catalog_item-overlay"></div>
-                </div>
-                <div class="catalog_item-wrapper">
-                  <a href="product.html" class="catalog_item-title">Logitech G Pro</a>
-                  <div class="catalog_item-price">6999 руб.</div>
-                  <div class="main-btn">
-                    <div class="color-overlay"></div>
-                    <span class="btn-text">Убрать</span>
-                  </div>
-                </div>
-              </div>
-              <div class="card_footer">
-                <div class="catalog_item-counter-minus">
-                  <img src="../assets/img/basket/minus.svg" alt="" />
-                </div>
-                <div class="catalog_item-counter-number">1</div>
-                <div class="catalog_item-counter-plus">
-                  <img src="../assets/img/basket/plus.svg" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="catalog_filter">
-            <div class="window_title">Данные о заказе</div>
-
-            <!-- order list  -->
-
-            <div class="purchase_data">Кол-во товаров: <span>3</span></div>
-            <div class="purchase_data">
-              Общая сумма: <span>20997 руб.</span>
-            </div>
-            <div class="purchase_data">Скидка: <span>10%</span></div>
-            <div class="purchase_data pd-lg">Итог: <span>18667 руб.</span></div>
-
-            <div class="main-btn stretch-btn">
-              <div class="color-overlay"></div>
-              <span class="btn-text">Оформить заказ</span>
-            </div>
+            
           </div>
         </div>
       </div>
@@ -170,7 +147,7 @@
           <div class="modal_main-wrapper login-active">
             <div class="modal_window login-inner">
               <div class="modal_close-wrapper">
-                <img src="../assets/img/close.svg" alt="" />
+                <img src="../../assets/img/close.svg" alt="" />
               </div>
               <div class="modal_title-text">Вход</div>
               <div class="modal_content">
@@ -207,7 +184,7 @@
 
             <div class="modal_window register-inner">
               <div class="modal_close-wrapper">
-                <img src="../assets/img/close.svg" alt="" />
+                <img src="../../assets/img/close.svg" alt="" />
               </div>
               <div class="modal_title-text">Регистрация</div>
               <div class="modal_content">
@@ -287,7 +264,7 @@
       </div>
     </div>
 
-    <script src="../assets/js/main.js"></script>
+    <script src="../../assets/js/main.js"></script>
 
     <script
       type="text/javascript"
@@ -299,7 +276,7 @@
       integrity="sha256-mBCu5+bVfYzOqpYyK4jm30ZxAZRomuErKEFJFIyrwvM="
       crossorigin="anonymous"
     ></script>
-    <script type="text/javascript" src="../assets/js/slick.min.js"></script>
-    <script type="text/javascript" src="../assets/js/slick.js"></script>
+    <script type="text/javascript" src="../../assets/js/slick.min.js"></script>
+    <script type="text/javascript" src="../../assets/js/slick.js"></script>
   </body>
 </html>
