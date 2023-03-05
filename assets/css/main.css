@@ -883,3 +883,22 @@ body.modal-active {
   background-color: #222526;
   margin-right: 30px;
 }
+
+/* admin nav  */
+
+.admin_nav {
+  margin-top: 20px;
+}
+
+.nav_wrapper {
+  display: flex;
+}
+
+.a_nav_item {
+  padding: 10px 20px;
+}
+
+.active_nav_item {
+  background-color: #222526;
+  border-radius: 10px;
+}
